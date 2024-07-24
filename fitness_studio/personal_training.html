@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Training</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+            <li><a href="index.html">Fitness Community Challenge</a></li>
+            <li><a href="personal_training.html">Personal Training</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul>
+            <li class="hideOnMobile"><a href="index.html">Fitness Community Challenge</a></li>  
+            <li class="hideOnMobile"><a href="personal_training.html">Personal Training</a></li>
+            <li class="hideOnMobile"><a href="pricing.html">Pricing</a></li>
+            <li class="hideOnMobile"><a href="blog.html">Blog</a></li>
+            <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+
+        </ul>
+    </nav>
+    <main>
+        <h1>Fitness Challenges</h1>
+        <section class="challenge-list">
+            <div class="challenge">
+                <h2>30-Day Running Challenge</h2>
+                <p>Run a total of 100 kilometers in 30 days. Track your progress and share your journey.</p>
+            </div>
+            <div class="challenge">
+                <h2>Strength Training Challenge</h2>
+                <p>Complete a set of strength training exercises daily for 4 weeks.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Fitness Challenge Community. All rights reserved.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

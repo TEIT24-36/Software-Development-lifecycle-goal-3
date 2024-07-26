@@ -75,3 +75,27 @@ function enlargeImage(element) {
   }, 500);
   return false;
 }
+
+//blog
+document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("fitnessLink").addEventListener("click", (e) => {
+        e.preventDefault();
+        toggleInfo("hiddenContent", "initialContent");
+    });
+
+    document.getElementById("nextLink").addEventListener("click", (e) => {
+        e.preventDefault();
+        toggleInfo("initialContent", "hiddenContent");
+    });
+
+    function toggleInfo(showId, hideId) {
+        const showElement = document.getElementById(showId);
+        const hideElement = document.getElementById(hideId);
+
+        showElement.classList.remove("hidden");
+
+        // Hide the other element
+        hideElement.classList.add("hidden");
+    }
+});
+

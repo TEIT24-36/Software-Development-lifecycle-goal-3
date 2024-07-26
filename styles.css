@@ -1,0 +1,60 @@
+/* Main content area styling */
+main {
+  padding: 20px;
+}
+
+/* Contact section styling */
+.contact {
+  background-color: #ffffff; /* White background for the contact section */
+  padding: 20px;
+  border-radius: 8px; /* Optional: rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: slight shadow for better separation */
+}
+
+/* Contact heading styling */
+.contact h1 {
+  font-weight: bold; /* Make heading bold */
+  margin-bottom: 10px;
+  text-align: center; 
+  font-size: 3rem;/* Center-align the heading */
+}
+
+/* Contact paragraph styling */
+.contact p {
+  margin-bottom: 40px;
+  text-align: center; /* Center-align the paragraph text */
+}
+
+
+/* Contact form styling */
+.contact form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold; /* Make label text bold */
+}
+
+.contact input, .contact select, .contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact button {
+  background-color: #333; /* Dark background for button */
+  color: #fff; /* White text */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #555; /* Darker shade on hover */
+  }

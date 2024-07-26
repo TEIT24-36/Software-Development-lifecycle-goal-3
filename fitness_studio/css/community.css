@@ -1,19 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
-
-.circle{
-  position: fixed;
-  height: 40px;
-  width: 40px;
-  border: 1px solid white;
-  border-radius: 100%;
-  top: -20px;
-  left: -20px;
-  pointer-events: none;
-  mix-blend-mode: difference;
-}
-
 body {
   font-family: "Blinker", sans-serif;
   line-height: 1.6;
@@ -22,29 +9,34 @@ body {
 }
 
 header {
-  background-color: #1b1919;
-  color: #faf7f7;
+  background-color: #222831;
+  color: #eeeeee;
   padding: 1px;
   text-align: center;
   background-size: cover;
+  
 }
 
 main {
   padding: 20px;
+  background-color: #222831;
+  
 }
 
 section {
   margin-bottom: 20px;
   padding: 20px;
-  background-color: #f9f9f9;
+  color: #eeeeee;
+  background-color: #393E46;
   border: 1px solid #ccc;
+  
 }
 
 .testimonial {
   display: flex;
   align-items: flex-start;
   border: 1px solid #ccc;
-  background-color: #f7be4c;
+  background-color:#222831 ;
   padding: 10px;
   margin-bottom: 10px;
 }
@@ -65,10 +57,12 @@ section {
 }
 
 .success-story {
+  color: #222831;
   margin-bottom: 20px;
   padding: 10px;
   border: 1px solid #ccc;
-  background-color: #f7be4c;
+  background-color: #00adb5;
+  
 }
 
 footer {
@@ -80,12 +74,15 @@ footer {
 
 @media (max-width: 768px) {
 
+  /* Responsive adjustments */
   .testimonial img {
     width: 60px;
     height: 60px;
     margin-right: 5px;
   }
 }
+
+
 
 
 
@@ -108,13 +105,14 @@ body{
 
 nav {
   box-shadow: 3px 3px 5px rgba(5, 5, 5, 0.4);
-  position: sticky;
+  position:sticky;
   top: 0;
   left: 0;  
   right: 0;
   z-index: 1000;
-
-  background-color: #1b1919;
+  /* Ensure it's above other elements */
+  background-color: #222831;
+  /* Adjust background color as needed */
   padding: 0;
   margin-top: 0;
 }
@@ -197,3 +195,4 @@ nav li:first-child {
     width: 100%;
   }
 }
+

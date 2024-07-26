@@ -27,10 +27,6 @@
 
   .header{
     min-height: 100vh;
-    background: url(/fitness_studio/images/background_image.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
   }
 
 
@@ -388,7 +384,7 @@ button {
   padding: 1.5rem;
   animation: appear linear;
   animation-timeline: view();
-  animation-range: entry 0 cover 40%;
+  animation-range: entry 0 cover 25%;
 }
 
 

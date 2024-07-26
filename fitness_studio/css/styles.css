@@ -672,6 +672,125 @@ ul {
 }
 
 
+/*blog*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+}
+
+
+header {
+  background: #333; 
+  color: #fff; 
+  padding: 1rem 0; 
+  position: fixed; 
+  width: 100%; 
+  top: 0; 
+  left: 0; 
+  z-index: 1000; 
+}
+
+
+header .container {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+  max-width: 1100px; 
+  margin: auto; 
+  padding: 0 2rem; 
+}
+
+/* Navbar Styling */
+header nav ul {
+  list-style: none; 
+  display: flex; 
+  padding: 0; 
+  margin: 0; 
+}
+
+header nav ul li {
+  margin-left: 1rem; /* Spacing between items */
+}
+
+header nav ul li a {
+  color: #fff; /* White text color for links */
+  text-decoration: none; /* Remove underline from links */
+  padding: 0.5rem 1rem; /* Padding around links */
+  transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Hover Effect for Links */
+header nav ul li a:hover {
+  color: #f0f0f0; /* Light grey color on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header .container {
+    flex-direction: column; /* Stack items vertically on small screens */
+    text-align: center; /* Center text in the container */
+  }
+
+  header nav ul {
+    flex-direction: column; /* Stack navbar items vertically */
+    margin-top: 1rem; /* Margin above navbar items */
+  }
+
+  header nav ul li {
+    margin: 0.5rem 0; /* Vertical spacing between items */
+  }
+}
+
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  position: relative;
+}
+
+
+.about,
+.blog {
+  padding: 2rem 0;
+}
+
+.blog article {
+  margin-bottom: 2rem;
+}
+
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+.hidden {
+    position: absolute; /* Use absolute positioning for hidden content */
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: none;}
+
+a {
+  color: blue;
+  text-decoration: underline;
+}
+
+a, button {
+  cursor: pointer; /* Indicates that the item is clickable */
+}
+
+
 
 /* 
 .highlight, .testimonial {

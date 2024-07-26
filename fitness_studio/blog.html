@@ -1,42 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    <section class="header">
-      <nav>
-        
+    <nav>
         <ul class="sidebar">
-          <li onclick="hideSidebar()"> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a>
-          </li>
-          <li><a href="index.html">Fitness Community Challenge</a></li>
-          <li><a href="personal_training.html">Personal Training</a></li>
-          <li><a href="challenges.html">Pricing</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="contact.html">Contact</a></li>
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
+                        viewBox="0 96 960 960" width="26">
+                        <path
+                            d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
+                    </svg></a></li>
+            <li><a href="index.html">Fitness Community Challenge</a></li>
+            <li><a href="personal_training.html">Personal Training</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="community.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
         <ul>
-        <li><a href="index.html"><img src="/fitness_studio/images/Untitled-2.png"></a></li>
+            <li class="hideOnMobile"><a href="index.html">Fitness Community Challenge</a></li>
+            <li class="hideOnMobile"><a href="personal_training.html">Personal Training</a></li>
+            <li class="hideOnMobile"><a href="pricing.html">Pricing</a></li>
+            <li class="hideOnMobile"><a href="blog.html">Blog</a></li>
+            <li class="hideOnMobile"><a href="community.html">Community</a></li>
+            <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                        height="26" viewBox="0 96 960 960" width="26">
+                        <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+                    </svg></a></li>
 
-          <li class="hideOnMobile"><a href="personal_training.html">Personal Training</a> </li>
-          <li class="hideOnMobile"><a href="challenges.html">Pricing</a></li>
-          <li class="hideOnMobile"><a href="blog.html">Blog</a></li>
-          <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
-          <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a>
-          </li>
         </ul>
-      </nav>
+    </nav>
     <main>
         <h1>About Us</h1>
-        <p>The Fitness Challenge Community is dedicated to helping individuals achieve their fitness goals through engaging and motivating challenges. Join us and become part of a supportive community!</p>
+        <p>The Fitness Challenge Community is dedicated to helping individuals achieve their fitness goals through
+            engaging and motivating challenges. Join us and become part of a supportive community!</p>
     </main>
+
+    <section id="blog" class="blog">
+        <div class="container">
+            <h1>Boosting Your Metabolism: The Fast Track to a Healthier You</h1>
+            <img src="/images/woman.png" >
+            <p>Metabolism is the process by which your body converts what you eat and drink into energy. A fast
+                metabolism can help you burn more calories, lose weight more efficiently, and feel more energetic. So,
+                how can you rev up your metabolic engine? Here are some top tips:</p>
+            <br>
+            <article id="initialContent">
+                <h1>1 Regular Physical Activity:</h1>
+                <p>The key to a faster metabolism lies in staying active. High-intensity interval training (HIIT),
+                    strength training, and even everyday activities can all contribute to burning more calories and
+                    thus, speeding up your metabolism.</p>
+
+                <h1>2 Eat Protein-Rich Foods:</h1>
+                <p>Protein induces a higher thermic effect than other nutrients, meaning your body burns more calories
+                    digesting proteins than it does digesting fats or carbohydrates. Including a good portion of protein
+                    in every meal can give your metabolism a significant boost.</p>
+
+                <h1>3 Stay Hydrated:</h1>
+                <p>Drinking enough water is crucial for your metabolism. Studies have shown that drinking water can
+                    temporarily boost your metabolism by about 10-30%. Staying well-hydrated also aids in digestion and
+                    keeps your body functioning optimally.</p>
+
+                <h1>4 Get Plenty of Sleep:</h1>
+                <p>Lack of sleep is often associated with metabolic issues and can lead to increased hunger and slowed
+                    metabolism. Ensuring you get adequate, high-quality sleep every night is an important step towards
+                    maintaining a healthy metabolism.</p>
+                <br>
+                <p>Remember, while these tips can assist in boosting your metabolism, each individual's metabolic rate
+                    is different and can be influenced by factors like age, genetics, and body composition. It's always
+                    best to consult with a healthcare professional or a dietitian before making significant changes to
+                    your lifestyle or diet.</p>
+                <br>
+                <p>Revving up your metabolism might not happen overnight, but with consistent, healthy habits, you can
+                    boost your metabolism and enjoy a healthier, more energetic life. Keep your metabolic engine running
+                    smoothly, and it will help you in the long run!</p>
+                <a href="#" id="fitnessLink">Fitness</a>
+            </article>
+            <article id="hiddenContent" class="hidden">
+                <h1>Unleashing Power With Mini Resistance Bands</h1>
+                <p>Compact, portable, and versatile - mini resistance bands are the unsung heroes of home and gym
+                    workouts alike. These small yet powerful tools pack a punch when it comes to enhancing your fitness
+                    routine. Here are some of the key benefits: Mini resistance bands are a versatile, portable, and
+                    cost-effective tool for enhancing your workouts.…</p>
+                <br>
+                <h1>1 Versatility:</h1>
+                <P>Mini resistance bands are like a gym in your pocket. They can be used to target almost every major
+                    muscle group, from your glutes and legs to your abs and upper body. You can integrate them into
+                    almost any workout routine, expanding the scope of your exercises significantly.</P>
+                <h1>2 Portability:</h1>
+                <p>One of the best things about mini resistance bands is their portability. They're lightweight and
+                    compact, so you can easily take them with you wherever you go. Whether you're traveling, at home, or
+                    in the park, these bands let you carry your workout routine with you.</p>
+                <h1>3 Increased Resistance:</h1>
+                <p>Mini resistance bands are excellent for boosting the intensity of your workouts. They provide
+                    continuous resistance throughout movements, making your muscles work harder. This leads to increased
+                    strength and muscle tone over time.</p>
+                <h1>4 Joint Health:</h1>
+                <p>By promoting proper form and stabilizing your muscles, mini resistance bands can help protect your
+                    joints during workouts. They're especially beneficial for people with joint issues or those
+                    recovering from injuries.</p>
+                <h1>5 Affordability:</h1>
+                <p>Finally, mini resistance bands are an affordable fitness tool. They offer a low-cost way to add
+                    variety and challenge to your workouts without breaking the bank.</p>
+                <a href="#" id="nextLink">Next</a>
+
+            </article>
+        </div>
+    </section>
+
     <footer>
         <p>&copy; 2024 Fitness Challenge Community. All rights reserved.</p>
     </footer>
     <script src="js/script.js"></script>
 </body>
+
 </html>

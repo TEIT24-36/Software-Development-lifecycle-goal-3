@@ -1,6 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
+
+.circle{
+  position: fixed;
+  height: 40px;
+  width: 40px;
+  border: 1px solid white;
+  border-radius: 100%;
+  top: -20px;
+  left: -20px;
+  pointer-events: none;
+  mix-blend-mode: difference;
+}
+
 body {
   font-family: "Blinker", sans-serif;
   line-height: 1.6;

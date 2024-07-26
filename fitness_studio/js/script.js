@@ -64,3 +64,14 @@ circleElement.style.transform = `${translateTransform} ${rotateTransform} ${scal
 
 
 tick();
+
+function enlargeImage(element) {
+  var img = element.querySelector('img');
+  var newTab = window.open();
+  setTimeout(function() {
+    newTab.document.body.innerHTML = img.outerHTML;
+    newTab.document.body.style.width = '500px'; // Adjust width as needed
+    newTab.document.body.style.margin = '0 auto'; // Center the image
+  }, 500);
+  return false;
+}

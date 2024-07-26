@@ -20,6 +20,7 @@
     padding: 0;
   }
   body{
+  background-color: #222831;
    
     font-family: "Blinker", sans-serif;
   }
@@ -110,7 +111,7 @@
 
 .textbox{
   width: 90%;
-  color: white;
+  color: #EEEEEE;
   position: absolute;
   top:20%;
   left: 50%;
@@ -180,7 +181,7 @@ button {
 
 .about-us{
   width: 80%;
-  margin: auto;
+  margin: 6%;
   text-align: center;
   padding-top: 100px;
   
@@ -192,6 +193,7 @@ button {
   animation: appear linear;
   animation-timeline: view();
   animation-range: entry 0 cover 40%;
+  color: #EEEEEE;
 }
 
 .about-us-textbox h2{
@@ -217,12 +219,13 @@ button {
   animation: appear linear;
   animation-timeline: view();
   animation-range: entry 0 cover 40%;
+  color: #EEEEEE;
 
 }
 
 .col{
   flex-basis: 31%;
-  background: #ffffff;
+  background: #393E46;
   border-radius: 10px;
   margin-bottom: 5%;
   padding: 20px 12px;
@@ -259,6 +262,8 @@ button {
   animation: appear linear;
   animation-timeline: view();
   animation-range: entry 0 cover 40%;
+  color: #EEEEEE;
+
 }
 
 .pricing-textbox h2{
@@ -294,6 +299,8 @@ button {
   animation: appear linear;
   animation-timeline: view();
   animation-range: entry 0 cover 40%;
+  color: #EEEEEE;
+
 }
 
 .training-textbox h2{
@@ -316,7 +323,7 @@ button {
 
 .quote{
   padding: 8%;
-  background-color: #f7be4c; /* Adjust the background color as needed */
+  background-color: #00ADB5; /* Adjust the background color as needed */
 
 }
 
